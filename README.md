@@ -6,12 +6,12 @@
     -  <img src="https://latex.codecogs.com/svg.latex?\Large&space;\cfrac{{\partial}f}{{\partial}t}+rS\cfrac{{\partial}f}{{\partial}S}+\cfrac{1}{2}{\sigma^2}{S^2}\cfrac{{\partial}^2f}{{\partial}S^2}=rf">
 - Call Option
     - <img src="https://latex.codecogs.com/svg.latex?\Large&space;C=max(S-K,0)"></center>
-    - <img src="https://latex.codecogs.com/svg.latex?\Large&space;C(S,K,r,\sigma,t)\,=\,S\cdot{N(d_1)}-K{\cdot}e^{-r(T-t)}{\cdot}N(d_2)"/>
+    - <img src="https://latex.codecogs.com/svg.latex?\Large&space;C(S,K,r,\sigma,t)\,=\,S{\cdot}{N(d_1)}-K{\cdot}e^{-r(T-t)}{\cdot}N(d_2)"/>
 - Put Call Parity
     - <img src="https://latex.codecogs.com/svg.latex?\Large&space;C+Ke^{-rt}=P+S"/>
 - Put Option
     - <img src="https://latex.codecogs.com/svg.latex?\Large&space;P=max(K-S,0)"/>
-    - <img src="https://latex.codecogs.com/svg.latex?\Large&space;P(S,K,r,\sigma,t)\,=\,K{\cdot}e^{-r(T-t)}{\cdot}N(-d_2)-S\cdot{N(-d_1)}"/>
+    - <img src="https://latex.codecogs.com/svg.latex?\Large&space;P(S,K,r,\sigma,t)\,=\,K{\cdot}e^{-r(T-t)}{\cdot}N(-d_2)-S{\cdot}{N(-d_1)}"/>
 
 - Where
     - <img src="https://latex.codecogs.com/svg.latex?\Large&space;d_1=\cfrac{ln{\frac{S}{K}+(r+0.5\sigma^2)(T-t)}}{\sigma\sqrt{T-t}}"/>
